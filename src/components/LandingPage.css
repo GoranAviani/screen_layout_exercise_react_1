@@ -10,7 +10,7 @@
 .leftSide{
     border: 5px solid red;
     grid-area: left-side;
-    padding-right: 15vh;
+    padding-right: 12vh;
 }
 
 .rightSide{
@@ -18,7 +18,7 @@
     grid-template-columns: 12fr 1fr;
     border: 5px solid blue;
     grid-area: right-side;
-    padding-left: 15vh;
+    padding-left: 12vh;
 }
 
 .topLeftButton{
