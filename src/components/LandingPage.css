@@ -36,13 +36,16 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
     width: 20vh;
     background: purple;
+
 }
 .centerButton{
     align-self: center;
     position: absolute;
+    width: 20vh;
+    height: 8vh;
     left: 50%;
     transform: translateX(-50%);
 
