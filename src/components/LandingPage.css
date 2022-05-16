@@ -12,11 +12,19 @@
 }
 
 .rightSide{
+    display: grid;
+    grid-template-columns: 12fr 1fr;
     height: 50vh;
     border: 5px solid blue;
     grid-area: right-side
 }
 
-.centerButton{
+.topLeftButton{
+    height: 10vh;
+}
 
+.centerButton{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
