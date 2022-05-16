@@ -32,6 +32,7 @@
 
 .centerText{
     display: flex;
+    justify-content: center;
     align-self: center;
     position: absolute;
     left: 50%;
@@ -39,7 +40,6 @@
     margin-bottom: 15vh;
     width: 20vh;
     background: purple;
-
 }
 .centerButton{
     align-self: center;
