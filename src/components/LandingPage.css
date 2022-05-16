@@ -1,0 +1,57 @@
+.landingPage {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "left-side right-side"
+            "content content";
+}
+
+.leftSide {
+    border: 5px solid red;
+    grid-area: left-side;
+    padding-right: 12vh;
+}
+
+.rightSide {
+    display: grid;
+    grid-template-columns: 12fr 1fr;
+    border: 5px solid blue;
+    grid-area: right-side;
+    padding-left: 12vh;
+}
+
+.topLeftButton {
+    height: 10vh;
+}
+
+.content {
+    height: 50vh;
+    grid-area: content;
+}
+
+.centerText {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-bottom: 15vh;
+
+    width: 20vh;
+    background: purple;
+}
+
+.centerButton {
+    align-self: center;
+    position: absolute;
+    width: 20vh;
+    height: 8vh;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+}
