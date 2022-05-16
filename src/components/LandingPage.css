@@ -1,5 +1,5 @@
 .landingPage{
-    height: 50vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left-side right-side"
