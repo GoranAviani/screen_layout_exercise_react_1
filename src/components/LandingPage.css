@@ -1,19 +1,18 @@
-.landingPage{
+.landingPage {
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left-side right-side"
-    "content content"
-;
+    "content content";
 }
 
-.leftSide{
+.leftSide {
     border: 5px solid red;
     grid-area: left-side;
     padding-right: 12vh;
 }
 
-.rightSide{
+.rightSide {
     display: grid;
     grid-template-columns: 12fr 1fr;
     border: 5px solid blue;
@@ -21,16 +20,16 @@
     padding-left: 12vh;
 }
 
-.topLeftButton{
+.topLeftButton {
     height: 10vh;
 }
 
-.content{
+.content {
     height: 50vh;
     grid-area: content;
 }
 
-.centerText{
+.centerText {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -41,7 +40,8 @@
     width: 20vh;
     background: purple;
 }
-.centerButton{
+
+.centerButton {
     align-self: center;
     position: absolute;
     width: 20vh;
