@@ -1,9 +1,10 @@
 .landingPage {
-    height: 70vh;
     display: grid;
+    height: 70vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "left-side right-side"
-    "content content";
+    grid-template-areas:
+            "left-side right-side"
+            "content content";
 }
 
 .leftSide {
@@ -33,10 +34,13 @@
     display: flex;
     justify-content: center;
     align-self: center;
+
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+
     margin-bottom: 15vh;
+
     width: 20vh;
     background: purple;
 }
@@ -46,6 +50,7 @@
     position: absolute;
     width: 20vh;
     height: 8vh;
+
     left: 50%;
     transform: translateX(-50%);
 
