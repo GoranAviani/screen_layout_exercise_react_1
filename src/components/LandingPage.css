@@ -1,22 +1,24 @@
 .landingPage{
     height: 70vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "left-side right-side"
-    "content content"
+    grid-template-columns: 1fr 1px 1fr;
+    grid-template-areas: "left-side center right-side"
+    "content content content"
 ;
 }
 
 .leftSide{
     border: 5px solid red;
-    grid-area: left-side
+    grid-area: left-side;
+    padding-right: 30px;
 }
 
 .rightSide{
     display: grid;
     grid-template-columns: 12fr 1fr;
     border: 5px solid blue;
-    grid-area: right-side
+    grid-area: right-side;
+    padding-left: 30px;
 }
 
 .topLeftButton{
@@ -27,8 +29,23 @@
     height: 50vh;
     grid-area: content;
 }
-.centerButton{
+
+.centerText{
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 20vh;
+    margin-bottom: 10vh;
+    grid-area: center;
+    background: purple;
+}
+.centerButton{
+    background: yellow;
+    display: flex;
+    grid-area: center;
+    width: 10vh;
+    align-self: center;
+    position: relative;
+    left: -50%;
+
 }
