@@ -1,0 +1,22 @@
+.landingPage{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left-side right-side";
+}
+
+.leftSide{
+    height: 50vh;
+    border: 5px solid red;
+    grid-area: left-side
+}
+
+.rightSide{
+    height: 50vh;
+    border: 5px solid blue;
+    grid-area: right-side
+}
+
+.centerButton{
+
+}
